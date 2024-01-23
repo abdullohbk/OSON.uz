@@ -1,0 +1,16 @@
+#news1 {
+    padding-top: 100px;
+    border-bottom: 1px solid #99D8FF;
+    background: #E5F5FF;
+
+    .news1__wrapper {
+        padding: 25px 0;
+        display: flex;
+        gap: 20px;
+        a{
+            font-weight: 500;
+            color: #0000B2;
+            text-decoration: none;
+        }
+    }
+}

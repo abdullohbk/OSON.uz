@@ -1,0 +1,103 @@
+header {
+    width: 100%;
+    background-color: #00008C;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+
+    // example
+
+    .nav {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        justify-content: space-between;
+        
+        &__left {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            a {
+                text-decoration: none;
+            }
+    
+            .nav__icons {
+                display: flex;
+                gap: 4px;
+                
+                p {
+                    font-size: 58px;
+                    font-weight: 600;
+                    color: #FAFDFF;
+                    position: relative;
+                    bottom: 4px;
+                }
+                .n1 {
+                    position: relative;
+                    bottom: 7px;
+                }
+                .n2 {
+                    position: relative;
+                    top: 8px;
+                    right: 36px;
+                }
+                .n3 {
+                    position: relative;
+                    top: 8px;
+                    right: 22px;
+                }
+            }
+            .nav__list {
+                display: flex;
+                gap: 32px;
+                list-style-type: none;
+    
+                &--item {
+                    
+                    &-link {
+                        text-decoration: none;
+                        color: #fff;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+       
+
+        &__right {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            > a {
+                color: #FAFDFF;
+                text-decoration: none;
+            }
+            .menu-b {
+                display: flex;
+                gap: 14px;
+                width: 98px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 14px;
+                border: 2px solid #fff;
+                border-radius: 38px;
+                cursor: pointer;
+                margin-left: 82px;
+                
+                p {
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #FAFDFF;
+                }
+                 div {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 5px;
+                 }
+            }
+            
+        }
+    }
+}

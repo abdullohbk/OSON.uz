@@ -1,0 +1,106 @@
+#intro {
+    background: #00008C;
+    height: 1000px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 100px;
+
+    .intro__wrapper {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        .intro__round-big {
+            position: absolute;
+            width: 1174px;
+            height: 1174px;
+            background-color: #fff;
+            opacity: 0.1;
+            border-radius: 50%;
+            left: 550px;
+            bottom: -100px;
+        }
+        .intro__round-middle {
+            position: absolute;
+            width: 836px;
+            height: 836px;
+            background-color: #fff;
+            opacity: 0.2;
+            border-radius: 50%;
+            left: 720px;
+            bottom: 50px;
+        }
+        .intro__round-little {
+            position: absolute;
+            width: 625px;
+            height: 625px;
+            background-color: #2424FF;
+            opacity: 0.4;
+            border-radius: 50%;
+            left: 820px;
+            bottom: 160px;
+        }
+        &-left {
+            margin-top: 100px;
+            h1 {
+                font-size: 72px;
+                font-weight: 700;
+                color: #FAFDFF;
+                width: 739px;
+            }
+            .intro__buttons{
+                display: flex;
+                gap: 10px;
+                button {
+                    border-radius: 54px;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 20px;
+                    padding-right: 25px;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    border: none;
+                    cursor: pointer;
+                    p{
+                        font-weight: 600;
+                    }
+                }
+            }
+            .intro__cards{
+                position: absolute;
+                bottom: -180px;
+                display: flex;
+                .intro__cards-card {
+                    width: 467px;
+                    height: 240px;
+                    border-radius: 15px 0px 0px 0px;
+                    border: 1px solid rgba(255, 255, 255, 0.20);
+                    background: rgba(0, 0, 140, 0.01);
+                    backdrop-filter: blur(100px);
+                    padding-top: 50px;
+                    padding-left: 40px;
+                    padding-right: 73px;
+                    h3 {
+                        font-size: 34px;
+                        font-weight: 400;
+                        color: #fff;
+                        margin-bottom: 10px;
+                    } 
+                    p {
+                        color: #fff;
+                    }
+            }
+            }
+        
+        }
+        &-right {
+            z-index: 9;
+        }
+    }
+}
+
+
+
+
+
+
+

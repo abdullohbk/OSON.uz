@@ -1,0 +1,38 @@
+#hamyon{
+    .container{
+        .hamyon__wrapper{
+            display: flex;
+            justify-content: space-between;
+            &--left{
+                h1{
+                    color: #00008C;
+                    font-family: Poppins;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                    width: 500px; 
+                }
+                p{
+                    color: #636376;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 167%;
+                    width: 485px; 
+                }
+                button{
+                    width: 270px;
+                    height: 94px;
+                    flex-shrink: 0;
+                    border-radius: 100px;
+                    background: #00008C;
+                    color: #fff;
+                    border: none;
+                    margin-top: 68px;
+                }
+            }
+        }
+    }
+}

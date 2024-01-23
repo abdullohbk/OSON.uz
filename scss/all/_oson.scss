@@ -1,0 +1,62 @@
+#oson{
+    position: relative;
+    background-color: #00008C;
+    .container{
+        .oson__wrapper{
+            display: flex;
+                h1{
+                    color: #FFF;
+                    font-family: Poppins;
+                    font-size: 50px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                    width: 569px;
+                }
+            
+        }
+        .oson__bottom{
+            position: relative;
+            margin-top: 103px;
+            .img1{
+                position: absolute;
+                left: -30px;
+            }
+            .img2{
+                position: absolute;
+                left: 60px;
+                bottom: 125px;
+            }
+            .img3{
+                position: absolute;
+                bottom: 232px;
+                left: 190px;
+            }
+           .img4{
+            position: relative;
+            left: 250px;
+            bottom: -20px;
+           }
+           .img5{
+            position: absolute;
+            bottom: 0;
+            left: 600px;
+           }
+           .img6{
+            position: absolute;
+            bottom: 90px;
+            right: 315px;
+           }
+           .img7{
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+           }
+           .img8{
+            position: absolute;
+            bottom: 100px;
+            right: -20px;
+           }
+        }
+    }
+}

@@ -1,0 +1,105 @@
+#page2__section2{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 427px;
+
+    .page2__setion2--wrapper{
+        display: flex;
+        align-items: start;
+        gap: 166px;
+
+        &--left{
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            background: #F5F5F5;
+            padding: 44px 186px 115px 41px;
+            
+            a{
+                text-decoration: none;
+                color: #00008C;
+                font-family: Poppins;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 125%;
+                padding-bottom: 3px;
+
+                &:hover{
+                    color: #4f4fdf;
+                }
+            }
+        }
+
+        &--right{
+
+            &--top{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                position: relative;
+
+                &--tatil{
+                    h1{
+                        width: 458px;
+                        color: #00004D;
+                        font-family: Poppins;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 125%;
+                        margin-bottom: 70px;
+                    }
+
+                    p{
+                        position: absolute;
+                        bottom: 0;
+                        color: #00F;
+                        font-family: Poppins;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 125%;
+                    }
+                    
+                    img{
+                        position: absolute;
+                        top: 29px;
+                        left: -83px;
+                        z-index: -2;
+                    }
+                }
+
+                &--img{
+                    img{
+                        width: 466px;
+                        height: 315px;
+                    }
+                }
+            }
+
+            &--botton{
+                margin-top: 50px;
+
+                article{
+                    width: 923px;
+                    color: #5A5C72;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 140%;
+                    padding-bottom: 20px;
+                }
+
+                h2{
+                    font-family: Poppins;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 125%;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }
+}

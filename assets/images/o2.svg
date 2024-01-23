@@ -1,0 +1,13 @@
+<svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 48096615">
+<circle id="Ellipse 1168" cx="16.4359" cy="16.389" r="12.3421" fill="#FAFDFF" stroke="#FAFDFF" stroke-width="8"/>
+<g id="Mask group">
+<mask id="mask0_1_234" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="33">
+<circle id="Ellipse 1170" cx="16.4359" cy="16.389" r="12.3421" fill="#000F9E" stroke="#0013CC" stroke-width="8"/>
+</mask>
+<g mask="url(#mask0_1_234)">
+<circle id="Ellipse 1171" cx="28.2386" cy="28.1859" r="16.3421" fill="#4DBBFF"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,31 @@
+#page4__intro{
+    width: 100%;
+    border-bottom: 1px solid #E6E6E6;
+    background: #E5F5FF;
+    padding: 123px 0px 27px;
+
+    p{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        a{
+            display: block;
+            color: #006;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 125%;
+            text-decoration: none;
+            transition: all .2s linear;
+
+            &:hover{
+                cursor: pointer;
+                color: #0000B2;
+                transition: all .2s linear;
+                transform: scale(1.02);
+            }
+        }
+    }
+}
